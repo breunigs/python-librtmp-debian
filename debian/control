@@ -1,0 +1,77 @@
+Source: python-librtmp
+Maintainer: Stefan Breunig <stefan-debian@yrden.de>
+Section: python
+Priority: optional
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9),
+ dh-python,
+ librtmp-dev,
+ python-all-dev,
+ python3-all-dev,
+ python-cffi,
+ python3-cffi,
+ python-setuptools,
+ python3-setuptools,
+ python-singledispatch,
+ python3 (>= 3.4) | python3-singledispatch
+Homepage: http://pythonhosted.org/python-librtmp/
+Vcs-Git: git://github.com/breunigs/python-librtmp-debian.git
+Vcs-Browser: https://github.com/breunigs/python-librtmp-debian
+
+Package: python-librtmp
+Architecture: any
+Depends: ${misc:Depends},
+         ${python:Depends},
+         ${shlibs:Depends},
+         python-singledispatch,
+         librtmp1
+Provides: ${python:Provides}
+Description: librtmp binding for Python 2
+ librtmp allows one to dump the media content streamed over
+ the RTMP protocol.
+ .
+ This package provides the binding for Python 2.
+
+Package: python3-librtmp
+Architecture: any
+Depends: ${misc:Depends},
+         ${python3:Depends},
+         ${shlibs:Depends},
+         python3 (>= 3.4) | python3-singledispatch,
+         librtmp1
+Provides: ${python3:Provides}
+Description: librtmp binding for Python 3
+ librtmp allows one to dump the media content streamed over
+ the RTMP protocol.
+ .
+ This package provides the binding for Python 3.
+
+Package: python-librtmp-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: ${misc:Depends},
+         ${python:Depends},
+         ${shlibs:Depends},
+         python-dbg,
+         python-librtmp (= ${binary:Version})
+Description: librtmp binding for Python 2 - Debugging symbols
+ librtmp allows one to dump the media content streamed over
+ the RTMP protocol.
+ .
+ This package contains debugging symbols for Python 2.
+
+Package: python3-librtmp-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: ${misc:Depends},
+         ${python:Depends},
+         ${shlibs:Depends},
+         python3-dbg,
+         python3-librtmp (= ${binary:Version})
+Description: librtmp binding for Python 3 - Debugging symbols
+ librtmp allows one to dump the media content streamed over
+ the RTMP protocol.
+ .
+ This package contains debugging symbols for Python 3.

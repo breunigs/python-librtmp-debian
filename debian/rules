@@ -1,0 +1,15 @@
+#! /usr/bin/make -f
+
+%:
+	dh $@ --with python2,python3 --buildsystem=pybuild
+
+override_dh_installchangelogs:
+	dh_installchangelogs HISTORY.rst
+
+.PHONY: override_dh_strip
+override_dh_strip:
+	dh_strip -ppython3-librtmp --dbg-package=python3-librtmp-dbg
+	dh_strip -ppython-librtmp --dbg-package=python-librtmp-dbg
+
+override_dh_clean:
+	dh_clean librtmp_ffi/__pycache__/*

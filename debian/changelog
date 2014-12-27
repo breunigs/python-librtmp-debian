@@ -1,0 +1,5 @@
+python-librtmp (0.2.1-1) UNRELEASED; urgency=low
+
+  * Initial release. (Closes: #760729)
+
+ -- Stefan Breunig <stefan-debian@yrden.de>  Mon, 01 Sep 2014 21:13:20 +0200
