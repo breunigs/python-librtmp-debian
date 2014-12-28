@@ -11,6 +11,8 @@ override_dh_strip:
 	dh_strip -ppython3-librtmp --dbg-package=python3-librtmp-dbg
 	dh_strip -ppython-librtmp --dbg-package=python-librtmp-dbg
 
-.PHONY: override_dh_clean
 override_dh_clean:
-	rm librtmp_ffi/__pycache__/*
+	rm -rf librtmp_ffi/__pycache__
+
+override_dh_auto_clean:
+	rm -rf .pybuild
