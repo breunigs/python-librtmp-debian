@@ -1,3 +1,10 @@
+Description: Use Debian packaged librtmp 
+ Upstream includes a known-good version of librtmp to avoid
+ errors when the system is using an old or incompatible version
+ otherwise. Debian's version only differs in minor details.
+Forwarded: not-needed
+Author: Stefan Breunig <stefan-debian@yrden.de>
+
 Index: packaging/librtmp_ffi/verifier.py
 ===================================================================
 --- packaging.orig/librtmp_ffi/verifier.py	2014-09-01 21:18:27.281016421 +0200
