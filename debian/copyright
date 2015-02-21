@@ -11,12 +11,12 @@ Files: src/librtmp/*
 Copyright: 2005-2008 Team XBMC
            2008-2009 Andrej Stepanchuk
            2009-2010 Howard Chu
-License: LGPL-2.1
+License: LGPL-2.1+
 
 Files: src/librtmp/log.h
 Copyright: 2008-2009 Andrej Stepanchuk
            2009-2010 Howard Chu
-License: LGPL-2.1
+License: LGPL-2.1+
 
 Files: debian/*
 Copyright: 2014, Stefan Breunig <stefan-debian@yrden.de>
