@@ -4,7 +4,6 @@ HISTORY.rst
 LICENSE
 MANIFEST.in
 README.rst
-setup.cfg
 setup.py
 librtmp/__init__.py
 librtmp/amf.py
