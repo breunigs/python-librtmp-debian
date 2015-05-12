@@ -1,4 +1,4 @@
-librtmp
-librtmp_ffi
-librtmp_config
 _binding
+librtmp
+librtmp_config
+librtmp_ffi
