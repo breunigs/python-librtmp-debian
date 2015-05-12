@@ -1,8 +1,10 @@
-python-librtmp (0.2.2-1) UNRELEASED; urgency=low
+python-librtmp (0.2.2-1) unstable; urgency=low
 
   * New upstream version
+  * d/copyright: Correct license for librtmp/* from LGPL-2.1 to LGPL-2.1+
+  * d/watch: Use pypi.debian.net mirror
 
- -- Stefan Breunig <stefan-debian@yrden.de>  Tue, 12 May 2015 18:59:52 +0200
+ -- Stefan Breunig <stefan-debian@yrden.de>  Tue, 12 May 2015 19:29:21 +0200
 
 python-librtmp (0.2.1-1) unstable; urgency=low
 
