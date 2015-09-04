@@ -4,7 +4,7 @@ Source: https://github.com/chrippa/python-librtmp
 Upstream-Name: python-librtmp
 
 Files: *
-Copyright: 2013-2014 Christopher Rosell <chrippa@tanuki.se>
+Copyright: 2013-2015 Christopher Rosell <chrippa@tanuki.se>
 License: BSD-2-clause
 
 Files: src/librtmp/*
@@ -19,7 +19,7 @@ Copyright: 2008-2009 Andrej Stepanchuk
 License: LGPL-2.1+
 
 Files: debian/*
-Copyright: 2014, Stefan Breunig <stefan-debian@yrden.de>
+Copyright: 2014-2015, Stefan Breunig <stefan-debian@yrden.de>
 License: BSD-2-clause
 
 License: LGPL-2.1+
