@@ -1,3 +1,9 @@
+python-librtmp (0.3.0-1) UNRELEASED; urgency=low
+
+  * New upstream version
+
+ -- Stefan Breunig <stefan-debian@yrden.de>  Fri, 04 Sep 2015 16:35:19 +0200
+
 python-librtmp (0.2.2-1.1) unstable; urgency=medium
 
   * Non-maintainer upload.
