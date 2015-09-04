@@ -1,18 +1,17 @@
-Description: Use Debian packaged librtmp 
+Description: Use Debian packaged librtmp
  Upstream includes a known-good version of librtmp to avoid
  errors when the system is using an old or incompatible version
  otherwise. Debian's version only differs in minor details.
 Forwarded: not-needed
 Author: Stefan Breunig <stefan-debian@yrden.de>
 
-Index: packaging/librtmp_ffi/verifier.py
+Index: packaging/librtmp/ffi.py
 ===================================================================
---- packaging.orig/librtmp_ffi/verifier.py	2014-09-01 21:18:27.281016421 +0200
-+++ packaging/librtmp_ffi/verifier.py	2014-12-27 15:37:26.035360421 +0100
-@@ -41,5 +41,4 @@
- """
- 
- verifier = Verifier(ffi, preamble, libraries=["rtmp"],
--                    ext_package="librtmp_ffi", modulename="_binding",
--                    sources=["src/librtmp/amf.c"])
-+                    ext_package="librtmp_ffi", modulename="_binding")
+--- packaging.orig/librtmp/ffi.py	2015-09-04 16:35:11.368780780 +0200
++++ packaging/librtmp/ffi.py	2015-09-04 16:47:55.126518980 +0200
+@@ -171,4 +171,4 @@
+
+
+ ffi.set_source("librtmp._librtmp", preamble,
+-               libraries=["rtmp"], sources=["src/librtmp/amf.c"])
++               libraries=["rtmp"])
