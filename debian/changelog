@@ -1,3 +1,12 @@
+python-librtmp (0.2.2-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Build-Depend on python{,3}-cffi-backend-dbg instead of
+    python{,3}-cffi-dbg, it was renamed without a transition package
+    (Closes: #792631).
+
+ -- Stefano Rivera <stefanor@debian.org>  Fri, 21 Aug 2015 12:54:19 +0200
+
 python-librtmp (0.2.2-1) unstable; urgency=low
 
   * New upstream version
