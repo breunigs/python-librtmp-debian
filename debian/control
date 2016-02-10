@@ -27,6 +27,7 @@ Architecture: any
 Depends: ${misc:Depends},
          ${python:Depends},
          ${shlibs:Depends},
+         python-cffi,
          python-singledispatch,
          librtmp1
 Provides: ${python:Provides}
@@ -41,6 +42,7 @@ Architecture: any
 Depends: ${misc:Depends},
          ${python3:Depends},
          ${shlibs:Depends},
+         python3-cffi,
          python3 (>= 3.4) | python3-singledispatch,
          librtmp1
 Provides: ${python3:Provides}
