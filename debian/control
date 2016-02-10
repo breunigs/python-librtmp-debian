@@ -19,7 +19,7 @@ Build-Depends: debhelper (>= 9),
  python-singledispatch,
  python3 (>= 3.4) | python3-singledispatch
 Homepage: http://pythonhosted.org/python-librtmp/
-Vcs-Git: git://github.com/breunigs/python-librtmp-debian.git
+Vcs-Git: https://github.com/breunigs/python-librtmp-debian
 Vcs-Browser: https://github.com/breunigs/python-librtmp-debian
 
 Package: python-librtmp
