@@ -1,6 +1,8 @@
 python-librtmp (0.3.0-2) unstable; urgency=low
 
   * Add explicit dependency on python{,3}-cffi (Closes: #813911)
+  * d/rules: enable bindnow hardening
+  * d/control: use secure VCS URI
 
  -- Stefan Breunig <stefan-debian@yrden.de>  Wed, 10 Feb 2016 19:29:51 +0100
 
